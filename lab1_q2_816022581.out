@@ -1,0 +1,580 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.10.07 18:36:15 =~=~=~=~=~=~=~=~=~=~=~=
+	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (92283) main: cnt: 93 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (92286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (93283) main: cnt: 94 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (94283) main: cnt: 95 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (94286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (95283) main: cnt: 96 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (96283) main: cnt: 97 	 GPIO 2 OUTPUT set to 1
+[0m
+Û
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7052, room 16 
+tail 12
+chksum 0x3e
+ho 0 tail 12 room 4
+load 0x3ffe8408, len 24, room 12 
+tail 12
+chksum 0x87
+ho 0 tail 12 room 4
+load 0x3ffe8420, len 3324, room 12 
+tail 0
+chksum 0x10
+csum 0x10
+[0;32mI (54) boot: ESP-IDF v3.4-65-gea598f11 2nd stage bootloader[0m
+[0;32mI (54) boot: compile time 01:24:15[0m
+[0;32mI (55) boot: SPI Speed      : 40MHz[0m
+[0;32mI (61) boot: SPI Mode       : DOUT[0m
+[0;32mI (67) boot: SPI Flash Size : 1MB[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (79) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (90) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (101) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (113) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (125) boot: End of partition table[0m
+[0;32mI (131) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15f2c ( 89900) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=0x00025f44 vaddr=0x40225f3c size=0x05a68 ( 23144) map[0m
+[0;32mI (195) esp_image: segment 2: paddr=0x0002b9b4 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (196) esp_image: segment 3: paddr=0x0002bd98 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (209) esp_image: segment 4: paddr=0x0002be20 vaddr=0x40100080 size=0x045b8 ( 17848) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (250) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (255) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (267) main: cnt: 1 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (1274) main: cnt: 2 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (2274) main: cnt: 3 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (2277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (3274) main: cnt: 4 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (4274) main: cnt: 5 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (4277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (5274) main: cnt: 6 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (6274) main: cnt: 7 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (6277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (7274) main: cnt: 8 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (8274) main: cnt: 9 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (8277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (9274) main: cnt: 10 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (10275) main: cnt: 11 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (10278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (11275) main: cnt: 12 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (12275) main: cnt: 13 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (12278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (13275) main: cnt: 14 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (14275) main: cnt: 15 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (14278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (15275) main: cnt: 16 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (16275) main: cnt: 17 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (16278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (17275) main: cnt: 18 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (18275) main: cnt: 19 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (18278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (19275) main: cnt: 20 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (20276) main: cnt: 21 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (20279) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (21276) main: cnt: 22 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (22276) main: cnt: 23 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (22279) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (23276) main: cnt: 24 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (24276) main: cnt: 25 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (24279) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (25276) main: cnt: 26 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (26276) main: cnt: 27 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (26279) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (27276) main: cnt: 28 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (28276) main: cnt: 29 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (28279) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (29276) main: cnt: 30 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (30277) main: cnt: 31 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (30280) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (31277) main: cnt: 32 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (32277) main: cnt: 33 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (32280) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (33277) main: cnt: 34 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (34277) main: cnt: 35 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (34280) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (35277) main: cnt: 36 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (36277) main: cnt: 37 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (36280) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (37277) main: cnt: 38 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (38277) main: cnt: 39 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (38280) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (39277) main: cnt: 40 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (40278) main: cnt: 41 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (40281) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (41278) main: cnt: 42 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (42278) main: cnt: 43 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (42281) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (43278) main: cnt: 44 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (44278) main: cnt: 45 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (44281) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (45278) main: cnt: 46 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (46278) main: cnt: 47 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (46281) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (47278) main: cnt: 48 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (48278) main: cnt: 49 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (48281) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (49278) main: cnt: 50 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (50279) main: cnt: 51 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (50282) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (51279) main: cnt: 52 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (52279) main: cnt: 53 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (52282) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (53279) main: cnt: 54 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (54279) main: cnt: 55 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (54282) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (55279) main: cnt: 56 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (56279) main: cnt: 57 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (56282) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (57279) main: cnt: 58 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (58279) main: cnt: 59 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (58282) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (59279) main: cnt: 60 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (60280) main: cnt: 61 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (60283) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (61280) main: cnt: 62 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (62280) main: cnt: 63 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (62283) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (63280) main: cnt: 64 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (64280) main: cnt: 65 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (64283) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (65280) main: cnt: 66 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (66280) main: cnt: 67 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (66283) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (67280) main: cnt: 68 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (68280) main: cnt: 69 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (68283) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (69280) main: cnt: 70 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (70281) main: cnt: 71 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (70284) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (71281) main: cnt: 72 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (72281) main: cnt: 73 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (72284) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (73281) main: cnt: 74 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (74281) main: cnt: 75 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (74284) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (75281) main: cnt: 76 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (76281) main: cnt: 77 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (76284) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (77281) main: cnt: 78 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (78281) main: cnt: 79 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (78284) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (79281) main: cnt: 80 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (80282) main: cnt: 81 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (80285) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (81282) main: cnt: 82 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (82282) main: cnt: 83 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (82285) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (83282) main: cnt: 84 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (84282) main: cnt: 85 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (84285) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (85282) main: cnt: 86 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (86282) main: cnt: 87 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (86285) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (87282) main: cnt: 88 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (88282) main: cnt: 89 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (88285) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (89282) main: cnt: 90 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (90283) main: cnt: 91 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (90286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (91283) main: cnt: 92 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (92283) main: cnt: 93 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (92286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (93283) main: cnt: 94 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (94283) main: cnt: 95 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (94286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (95283) main: cnt: 96 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (96283) main: cnt: 97 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (96286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (97283) main: cnt: 98 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (98283) main: cnt: 99 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (98286) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (99283) main: cnt: 100 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (100284) main: cnt: 101 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (100287) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (101284) main: cnt: 102 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (102284) main: cnt: 103 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (102287) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (103284) main: cnt: 104 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (104284) main: cnt: 105 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (104287) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (105284) main: cnt: 106 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (106284) main: cnt: 107 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (106287) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (107284) main: cnt: 108 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (108284) main: cnt: 109 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (108287) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (109284) main: cnt: 110 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (110285) main: cnt: 111 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (110288) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (111285) main: cnt: 112 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (112285) main: cnt: 113 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (112288) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (113285) main: cnt: 114 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (114285) main: cnt: 115 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (114288) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (115285) main: cnt: 116 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (116285) main: cnt: 117 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (116288) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (117285) main: cnt: 118 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (118285) main: cnt: 119 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (118288) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (119285) main: cnt: 120 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (120286) main: cnt: 121 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (120289) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (121286) main: cnt: 122 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (122286) main: cnt: 123 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (122289) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (123286) main: cnt: 124 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (124286) main: cnt: 125 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (124289) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (125286) main: cnt: 126 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (126286) main: cnt: 127 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (126289) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (127286) main: cnt: 128 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (128286) main: cnt: 129 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (128289) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (129286) main: cnt: 130 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (130287) main: cnt: 131 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (130290) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (131287) main: cnt: 132 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (132287) main: cnt: 133 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (132290) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (133287) main: cnt: 134 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (134287) main: cnt: 135 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (134290) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (135287) main: cnt: 136 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (136287) main: cnt: 137 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (136290) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (137287) main: cnt: 138 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (138287) main: cnt: 139 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (138290) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (139287) main: cnt: 140 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (140288) main: cnt: 141 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (140291) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (141288) main: cnt: 142 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (142288) main: cnt: 143 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (142291) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (143288) main: cnt: 144 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (144288) main: cnt: 145 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (144291) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (145288) main: cnt: 146 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (146288) main: cnt: 147 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (146291) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (147288) main: cnt: 148 	 GPIO 2 OUTPUT set to 0
+[0m
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7052, room 16 
+tail 12
+chksum 0x3e
+ho 0 tail 12 room 4
+load 0x3ffe8408, len 24, room 12 
+tail 12
+chksum 0x87
+ho 0 tail 12 room 4
+load 0x3ffe8420, len 3324, room 12 
+tail 0
+chksum 0x10
+csum 0x10
+[0;32mI (54) boot: ESP-IDF v3.4-65-gea598f11 2nd stage bootloader[0m
+[0;32mI (54) boot: compile time 01:24:15[0m
+[0;32mI (55) boot: SPI Speed      : 40MHz[0m
+[0;32mI (61) boot: SPI Mode       : DOUT[0m
+[0;32mI (67) boot: SPI Flash Size : 1MB[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (79) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (90) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (101) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (113) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (125) boot: End of partition table[0m
+[0;32mI (131) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15f2c ( 89900) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=0x00025f44 vaddr=0x40225f3c size=0x05a68 ( 23144) map[0m
+[0;32mI (195) esp_image: segment 2: paddr=0x0002b9b4 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (196) esp_image: segment 3: paddr=0x0002bd98 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (209) esp_image: segment 4: paddr=0x0002be20 vaddr=0x40100080 size=0x045b8 ( 17848) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (250) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (255) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (267) main: cnt: 1 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (1274) main: cnt: 2 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (2274) main: cnt: 3 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (2277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (3274) main: cnt: 4 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (4274) main: cnt: 5 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (4277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (5274) main: cnt: 6 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (6274) main: cnt: 7 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (6277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (7274) main: cnt: 8 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (8274) main: cnt: 9 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (8277) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (9274) main: cnt: 10 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (10275) main: cnt: 11 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (10278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (11275) main: cnt: 12 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (12275) main: cnt: 13 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (12278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (13275) main: cnt: 14 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (14275) main: cnt: 15 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (14278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (15275) main: cnt: 16 	 GPIO 2 OUTPUT set to 0
+[0m
+[0;32mI (16275) main: cnt: 17 	 GPIO 2 OUTPUT set to 1
+[0m
+[0;32mI (16278) main: GPIO[0] intr, val: 0
+[0m
+[0;32mI (17275) main: cnt: 18 	 GPIO 2 OUTPUT set to 0
+[0m
+
