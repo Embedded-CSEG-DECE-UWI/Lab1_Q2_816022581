@@ -32,8 +32,8 @@ static const char *TAG = "main";
  * GPIO 0:  input, pulled up, interrupt from falling edge
  *
  * Test:
- * Connect GPIO2 with GPIO0
- * Generate pulses on GPIO2, that triggers interrupt on GPIO0
+ * Connect GPIO 2 with GPIO 0
+ * Generate pulses on GPIO 2, that triggers interrupt on GPIO 0
  *
  */
 
@@ -68,7 +68,7 @@ void app_main(void)
     io_conf.intr_type = GPIO_INTR_DISABLE;
     //set as output mode
     io_conf.mode = GPIO_MODE_OUTPUT;
-    //bit mask of the pins that you want to set,e.g.GPIO15/16
+    //bit mask of the pins that you want to set,e.g.GPIO 2
     io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
     //disable pull-down mode
     io_conf.pull_down_en = 0;
@@ -79,7 +79,7 @@ void app_main(void)
 
     //interrupt of falling edge
     io_conf.intr_type = GPIO_INTR_NEGEDGE;
-    //bit mask of the pins, use GPIO4/5 here
+    //bit mask of the pins, use GPIO 0 here
     io_conf.pin_bit_mask = GPIO_INPUT_PIN_SEL;
     //set as input mode
     io_conf.mode = GPIO_MODE_INPUT;
