@@ -1,7 +1,7 @@
 # Lab1_Q2_816022581
 Repository for ECNG 3006 Lab 1 Q2. I love the esp, it has enriched my life and broadened the narrow horizon that was once my prior understanding of suffering. I have never been happier!
 
-#Lab2_P1
+# Lab2_P1
 1. File: /project/sdkconfig
 This is an automatically generated file which is the ESP-IDF project configuration settings. 
 A large amount of configuration settings are commented out as 'not set' in this file. 
